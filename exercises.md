@@ -12,7 +12,12 @@ Write the code, one line for each action:
 
 ### Exercise 2:
 
-1. Create a variable which could store test scores in a university. The univerisity need to store a student's first name, last name, age and their test score.
-2. Create a function which allows you to add another test score with the same format.
+1. Create a variable which could store test scores in a university in an array. The univerisity need to store a student's first name, last name, age and their test score in each entry. A visual representation would be:
+   | firstName | lastName | age | score | |
+   |-----------|----------|-----|-------|---|
+   | John | Doe | 25 | 90 | |
+   | Jane | Doe | 30 | 95 | |
+   | | | | | |
+2. Create a function which allows you to add another person with a new test score with the same format.
 3. Create a function which removes the latest test score.
 4. Create a function that takes in a student's first name, last name, and a new test score, which updates their old test score with the new one.
